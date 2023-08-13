@@ -1,0 +1,103 @@
+body {
+    background-image: url(bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    display: flex;
+    flex: row;
+    height: 97vh;
+    width: 97vw;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 4em;
+    font-family: poppins;
+    
+}
+.payment {
+    background-color: hsl(248, 32%, 49%);
+    padding: 2px;
+    height: 30px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+/*.then {
+    font-weight: 0.1px;
+    font-size: 1px ;
+}*/
+form {
+    padding : 20px;
+    
+    width: 200px;
+    height: 200px;
+    border-color: aliceblue;
+    
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    
+    font-size: 12px;
+
+
+}
+form input {
+    
+    height: 80px;
+    border: 1px solid rgb(235, 232, 232);
+
+    border-radius: 5px;
+    padding-left: 10px;
+    font-weight: 20px;
+    font-size: 10px;
+    
+
+}
+.trial {
+    color: black;
+    background-color: ;
+    font-size: 4px;
+    font-weight: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content {
+    width: 28em;
+}
+#learncode {
+    font-size: 2.5em;
+}
+
+#claim {
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 4px;
+background-color:  hsl(154, 59%, 51%);
+border-radius: 5px;
+font-size: 8px; 
+font-weight: 1px
+;
+color: white;
+height: 30px;
+border-color: white;
+
+}
+
+#services {
+    color:  hsl(0, 100%, 74%)
+}
+
+.ptag {
+    font-size: 13px;
+}
+@media screen(max-width )  {
+    
+} () {
+    
+}
